@@ -9,7 +9,7 @@ import Alpha from './components/Alpha';
 import Beta from './components/Beta';
 
 const Root = () => 
-    <Router>
+    <Router basename="/react-app/">
         <div>
             <Navbar>
                 <Navbar.Header>
